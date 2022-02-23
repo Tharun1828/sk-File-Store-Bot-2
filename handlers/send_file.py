@@ -13,7 +13,18 @@ async def reply_forward(message: Message, file_id: int):
         await message.reply_text(
             f"**Here is Sharable Link of this file:**\n"
             f"https://telegram.me/{Config.BOT_USERNAME}?start=SkStorefree_{str_to_b64(str(file_id))}\n\n"
-            f"__To Retrive the Stored File, just open the link!__",
+            f"__𝐽𝑜𝑖𝑛 𝑂𝑢𝑟 𝐶ℎ𝑎𝑛𝑛𝑒𝑙𝑠 💖
+Tamil Movies 
+https://t.me/+Pkxv71wsk3djMTFl
+
+Vijay Tv
+https://t.me/Vijay_Tv_Official
+
+Zee Tamil 
+https://t.me/Zee_Tamil_Serials_Official
+
+Colors Tamil 
+https://t.me/Colors_Tamil_Official__",
             disable_web_page_preview=True, quote=True)
     except FloodWait as e:
         await asyncio.sleep(e.x)
